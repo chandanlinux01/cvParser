@@ -26,6 +26,7 @@ function SignIn() {
 
   //Sign in with Google
   // Google
+  {/* 
   const responseGoogle = (response) => {
     console.log("res is", response);
     const user = {
@@ -69,6 +70,7 @@ function SignIn() {
       history.push("/admin/profile-generator");
     }
   };
+  */}
 
   const formInitialValues = {
     email: "",
@@ -346,6 +348,7 @@ function SignIn() {
                   {/* Use button text state */}
                 </Button>
 
+                {/* 
                 <GoogleLogin
                   clientId="986930600127-u1qbih3n80r8qr720o2a77ja0hnouq3c.apps.googleusercontent.com"
                   buttonText="Sign In With Google"
@@ -353,6 +356,7 @@ function SignIn() {
                   onFailure={responseGoogle}
                   cookiePolicy={"single_host_origin"}
                 />
+                */}
               </Form>
               {/* 
               <GoogleButton style={{width:'100%'}}

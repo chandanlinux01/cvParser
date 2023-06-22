@@ -27,6 +27,7 @@ let history = useHistory();
 
 
 // Google
+{/* 
 const responseGoogle = (response) => {
     
   console.log('res is',response);
@@ -74,6 +75,7 @@ const responseGoogle = (response) => {
   }
 
 }
+*/}
 
 
   // using Formik
@@ -403,7 +405,7 @@ fetch(`${process.env.REACT_APP_BASE_URL}register/`, {
               {loading ? "Please wait..." : buttonText} {/* Use button text state */}
             </Button>
 
-          
+          {/* 
               <GoogleLogin
               clientId="986930600127-u1qbih3n80r8qr720o2a77ja0hnouq3c.apps.googleusercontent.com"
               buttonText="Sign Up With Google"
@@ -411,6 +413,8 @@ fetch(`${process.env.REACT_APP_BASE_URL}register/`, {
               onFailure={responseGoogle}
               cookiePolicy={'single_host_origin'}
             />
+
+            */}
         
             </Form>
          
